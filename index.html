@@ -29,6 +29,11 @@
     <script src="js/main.js" defer></script>
   </head>
   <body>
-    <div id="app">{{ message }}</div>
+    <div id="app">
+      <div class="container mt-3">
+        <h1>{{ message }}</h1>
+        <img :src="img" alt="" />
+      </div>
+    </div>
   </body>
 </html>
